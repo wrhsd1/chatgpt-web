@@ -1,0 +1,3 @@
+[build]
+  command = "cd /opt/build/repo/service \n pnpm install \n cd /opt/build/repo \n pnpm bootstrap \n cd /opt/build/repo/service \n pnpm start  \n cd /opt/build/repo \n pnpm dev"
+  publish = "dist"
